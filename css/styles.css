@@ -1,0 +1,33 @@
+body, html {
+    height: 90%;
+}
+
+.parallax-1, .parallax-2, .parallax-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .65;
+}
+
+.parallax-1 {
+    background-image: url(/images/tortoise-1.jpg);
+    height: 100%;
+}
+
+.parallax-2 {
+    background-image: url(https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80);
+    height: 100%;
+}
+
+.parallax-3 {
+    background-image: url(https://images.unsplash.com/photo-1613919113640-25732ec5e61f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    height: 100%;
+}
+
+#profile {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.425)
+}
