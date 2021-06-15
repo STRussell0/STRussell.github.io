@@ -11,7 +11,7 @@ body, html {
 }
 
 .parallax-1 {
-    background-image: url(./images/tortoise-1.jpg);
+    background-image: url(../images/tortoise-1.jpg);
     height: 100%;
 }
 
