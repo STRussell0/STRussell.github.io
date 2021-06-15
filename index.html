@@ -14,9 +14,9 @@
   </head>
   <body>
 <!-- NAVBAR - Added fixed top to keep it stuck to the top -->
-    <header class="fixed-top">
+    <header class="fixed-top" id="Top">
 
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -28,21 +28,45 @@
 
           <div class="navbar-nav">
 <!-- Put links to IDs used later to navigate to them when pressed -->
-            <a class="nav-item nav-link" href="#Top">Top</a>
-            <a class="nav-item nav-link" href="#About">About</a>
-            <a class="nav-item nav-link" href="#Skills">Skills</a>
-            <a class="nav-item nav-link" href="#Projects">Projects</a>
-            <a class="nav-item nav-link" href="#Contact">Contact</a>
+            <a class="nav-item nav-link font-weight-bold" href="#Top">Top</a>
+            <a class="nav-item nav-link font-weight-bold" href="#About">About</a>
+            <a class="nav-item nav-link font-weight-bold" href="#Skills">Skills</a>
+            <a class="nav-item nav-link font-weight-bold" href="#Projects">Projects</a>
+            <a class="nav-item nav-link font-weight-bold" href="#Contact">Contact</a>
 
           </div>
 
         </div>
 
-        <a class="navbar-brand" href="#">S.Russell</a>
+        <a class="navbar-brand text-dark font-weight-bold" href="#">S.Russell</a>
 
       </nav>
 
     </header>
+
+    <section class="parallax-1"></section>
+
+    <section class="jumbotron text-center d-flex justify-content-around" id="About">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-xl-6 col-sm">
+          <img src="/images/profile-1.jpg" alt="Picture of Stephen" id="profile">
+          </div>
+
+          <div class="col-xl-6 col-sm">
+          <h1 class="display-4"><strong>About Me</strong></h1>
+          <p class="lead">This is a little bio about myself.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    </section>
     
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
