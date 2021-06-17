@@ -10,6 +10,10 @@ body, html {
     opacity: .65;
 }
 
+.jumbotron {
+    margin-bottom: 0;
+}
+
 .parallax-1 {
     background-image: url(../images/tortoise-1.jpg);
     height: 100%;
@@ -30,6 +34,11 @@ body, html {
     width: 300px;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.425)
+}
+
+#skills-logo {
+    height: 200px;
+    width: 600px;
 }
 
 .nav-item {
