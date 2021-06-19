@@ -21,8 +21,8 @@ body, html {
 }
 
 .parallax-3 {
-    background-image: url();
-    height: 70%;
+    background-image: url(../images/contact.jpg);
+    height: 50%;
 }
 
 .jumbotron {
