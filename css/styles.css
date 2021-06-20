@@ -50,3 +50,9 @@ li {
 a {
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    .parallax-1 {
+        background-image: url(../images/tortoise-1.5.jpg);
+    }
+}
