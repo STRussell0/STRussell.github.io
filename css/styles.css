@@ -25,6 +25,14 @@ body, html {
     height: 50%;
 }
 
+h1, h4 {
+    font-family: "Ruda", sans-serif;
+}
+
+p, li, h3 {
+    font-family: "Roboto Slab", serif;
+}
+
 .jumbotron {
     margin-bottom: 0;
 }
@@ -49,6 +57,16 @@ li {
 
 a {
     color: black;
+}
+
+footer {
+    background-color: #E9ECEF;
+    text-align: center;
+}
+
+.fa:hover {
+    color: red;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
